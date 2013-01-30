@@ -187,7 +187,7 @@ class strState
 		else
 			return false;
 
-		if($str[1]>12 || $str[1]<1 || strlen($str[2]) !== 4 || strlen($str[0]) > 2 || strlen($str[1]) > 2)
+		if($str[1] > 12 || $str[1] < 1 || strlen($str[2]) !== 4 || strlen($str[0]) > 2 || strlen($str[1]) > 2)
 			return false;
 
 		if($str[1] === 2)
