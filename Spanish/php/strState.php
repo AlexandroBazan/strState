@@ -1,9 +1,9 @@
 <?php
 /*-----------------------------------------------
- *|		     		strState v1.0 				|
+ *|            	 strState v1.0 			|
  *-----------------------------------------------
- *|	 Desarrollado por Alexandro Bazán Ladines 	|
- *|				100% gratis - 2013				|
+ *|  Desarrollado por Alexandro Bazán Ladines 	|
+ *|		100% gratis - 2013		|
  *-----------------------------------------------
  */
 
