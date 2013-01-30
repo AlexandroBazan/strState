@@ -1,9 +1,9 @@
 <?php
 /*-----------------------------------------------
- *|		     	strState for PHP		    	|
+ *|		 strState for PHP	 	|
  *-----------------------------------------------
- *|	   Powered by Alexandro Bazán Ladines   	|
- *|				100% free - 2013				|
+ *|    Powered by Alexandro Bazán Ladines   	|
+ *|		100% free - 2013		|
  *-----------------------------------------------
  */
 
