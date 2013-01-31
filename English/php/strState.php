@@ -9,7 +9,6 @@
 
 class strState
 {
-
 /*
  *The static method 'core' will drive all other methods that require
  *the use of regular expressions to validate the string to evaluate.
@@ -17,7 +16,6 @@ class strState
 
 	private static function core($regex,$values)
 	{
-		$reply = false;
 		$param = "";
 
 		if($values['str'] !== false)
@@ -55,7 +53,6 @@ class strState
 		$regex = '[0-9]';
 
 		return self::core($regex,$values);
-		
 	}
 
 /*
@@ -115,7 +112,7 @@ class strState
 				'min' => false,
 				'max' => false
 				);
-		
+
 		if(!$dom)
 			$add = '[a-zA-Z-0-9-]+\.[a-z]{2,4}?(\.[a-z]{2})';
 		else{
@@ -157,16 +154,15 @@ class strState
 
 	public static function date($str = false, $format = false, $min = false, $max = false)
 	{
-
 		if(!$str)
 			return false;
-		
+
 		$min = !$min? date('Y') - 108 : $min ;
 
 		$max = !$max? date('Y') : $max ;
 
 		$format = str_replace('/', '-', $format);
-		
+
 		$str    = str_replace('/', '-', $str);
 
 		$str = explode('-', $str);
@@ -191,7 +187,7 @@ class strState
 		if($str[1] === 2)
 		{
 
-			if(($str[2]%4 === 0) || ($str[2]%4 !== 0) && $str[2]%400 === 0) 
+			if(($str[2]%4 === 0) || ($str[2]%4 !== 0) && $str[2]%400 === 0)
 				$days = 29;
 			else
 				$days = 28;
@@ -209,7 +205,6 @@ class strState
 			return false;
 
 		return true;
-
 	}
 }
 
